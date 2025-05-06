@@ -10,5 +10,6 @@ export default {
   rateLast: document.querySelector('.rate-last'),
   switchButton: document.querySelector('.switch-currencies'),
   toSelect: document.querySelector('#to'),
-  fromSelect: document.querySelector('#from')
+  fromSelect: document.querySelector('#from'),
+  tabs: document.querySelectorAll('.tab'),
 };
