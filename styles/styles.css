@@ -98,8 +98,7 @@ h1 {
 
 .wrapper {
   background: linear-gradient(180deg, #271d35 0%, rgba(39, 29, 53, 0.2) 100%);
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   border-radius: 12px;
   padding: 9px 45px 37px 45px;
   width: 100%;
@@ -145,8 +144,7 @@ h1 {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
+  column-gap: 10px;
   padding: 15px 10px;
   opacity: 0.5;
   transition: opacity 0.25s ease;
@@ -223,15 +221,13 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  -moz-column-gap: 25px;
-       column-gap: 25px;
+  column-gap: 25px;
   align-items: flex-end;
 }
 @media screen and (max-width: 700px) {
   .form-selects {
     width: 100%;
-    -moz-column-gap: 10px;
-         column-gap: 10px;
+    column-gap: 10px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -306,8 +302,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  -moz-column-gap: 15px;
-       column-gap: 15px;
+  column-gap: 15px;
   opacity: 0;
 }
 @media screen and (max-width: 700px) {
@@ -339,9 +334,7 @@ h1 {
   padding: 12px;
   align-items: center;
   display: grid;
-  -moz-column-gap: 8px;
-       column-gap: 8px;
-  width: -moz-max-content;
+  column-gap: 8px;
   width: max-content;
   grid-template-columns: 32px 1fr;
   grid-template-areas: "icon titles" "icon amount";
@@ -349,7 +342,6 @@ h1 {
 @media screen and (max-width: 700px) {
   .form-result__item {
     flex-grow: 1;
-    width: -moz-max-content;
     width: max-content;
   }
 }
@@ -380,8 +372,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: start;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
+  column-gap: 10px;
 }
 @media screen and (max-width: 700px) {
   .form-result__item-titles {
@@ -470,8 +461,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: start;
-  -moz-column-gap: 19px;
-       column-gap: 19px;
+  column-gap: 19px;
 }
 @media screen and (max-width: 500px) {
   .currency-titles {
@@ -542,7 +532,6 @@ h1 {
   font-size: 12px;
   line-height: 15px;
   color: rgba(255, 255, 255, 0.5);
-  width: -moz-max-content;
   width: max-content;
   padding: 10px 24px;
   cursor: pointer;
